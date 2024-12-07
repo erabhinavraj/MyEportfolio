@@ -1,0 +1,160 @@
+
+/* Home/Index Page starts from here  */
+#index{
+    /* background-color: aqua; */
+    background-color: rgb(20, 20, 20, 1);
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    h1{
+        color: red;
+    }
+    #navbar{
+        background-color: rgb(232, 23, 23);
+    }
+    #Welcome{
+      
+        color: rgb(255, 0, 0);
+     
+    }
+    .obj{
+        color: rgb(255, 196, 0);
+        text-decoration: underline;
+    }
+    .exp{
+        /* color: rgb(251, 0, 255); */
+        color: rgb(255, 196, 0);
+
+        text-decoration: underline;
+    }
+    .skill{
+        color: rgb(255, 196, 0);
+        text-decoration: underline;
+    
+    
+    }
+    .edu{
+        /* color: rgb(251, 0, 255); */
+        color: rgb(255, 196, 0);
+
+        text-decoration: underline;
+    
+    
+    }
+    .abt{
+        /* color: rgb(251, 0, 255); */
+        color: rgb(255, 196, 0);
+
+        text-decoration: underline;  
+    
+    }
+
+    .nav-link{
+        color: rgba(77, 255, 1, 0.801);
+    }
+    .do{
+        color: rgba(255, 238, 1, 0.791);
+
+    }
+    h4{
+        color: aqua;
+    }
+
+    .edt  strong{
+        color: rgb(234, 99, 41);
+    }
+}
+#Welcome{
+      
+    color: rgb(255, 0, 0);
+    
+}
+
+/* Introduction Page starts from here  */
+#Introduction{
+    /* background-color: aqua; */
+    background-color: rgb(20, 20, 20, 1);
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+    h1{
+        color: rgb(255, 196, 0);
+
+    }
+
+    strong{
+        color: rgb(234, 99, 41);
+    }
+
+}
+
+
+/* Project Page starts from here  */
+#Project{
+    /* background-color: aquamarine; */
+    background-color: rgb(20, 20, 20, 1);
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+    h1{
+        color: rgb(255, 196, 0);
+
+    }
+    h4{
+        color: rgba(77, 255, 1, 0.801);
+        text-decoration: underline;
+
+    }
+    h6{
+        color: rgb(255, 196, 0);
+
+    }
+    ul > li{
+        list-style-type: none;
+    }
+
+}
+
+/* Skills Page starts from here  */
+#skl{
+    /* background-color: rgb(209, 157, 240); */
+    background-color: rgb(20, 20, 20, 1);
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+    h1{
+        color: red;
+    }
+    h2{
+        text-decoration: underline;
+        color: rgb(255, 196, 0);        
+    }
+    h5{
+        color: rgba(77, 255, 1, 0.801);
+
+    }
+    ul > li{
+        list-style-type: none;
+    }
+
+   /* .pl:hover{
+    background-image: url(3.png);
+    color: black;
+   } */
+    
+}
