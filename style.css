@@ -238,6 +238,7 @@ p.lead {
 }
 
 
+
 /* Expernice Sectin  */
 /* Experience Section Styling */
 /* Experience Section Styling */
@@ -648,6 +649,7 @@ p.lead {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   background-color: rgba(0, 0, 0, 0.6);
 }
+
 #contact .container:hover {
   background-color: rgba(26, 30, 33, 0.75);
   background-blend-mode: overlay;
