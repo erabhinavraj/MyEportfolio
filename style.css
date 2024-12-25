@@ -1,0 +1,786 @@
+body {
+  /* font-family: sans-serif; */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #ffffff; */
+}
+
+
+/* Main Content */
+
+main {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  /* background-image: url(spacebg.jpg); */
+  background-image: url(starbg.jpg);
+  /* background-image: url(starbg.jpg); */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+
+section {
+  padding: 15px;
+  margin: 20px;
+}
+
+/*Navigation */
+
+/* Navigation's list txt  */
+.navbar-nav .nav-link,
+.dropdown-item {
+  color: #ffa405 !important;
+}
+
+.navbar-nav .nav-link:hover,
+.dropdown-item:hover {
+  color: #ffb933;
+}
+
+/* Dropdown list alignment  */
+
+.dropdown-menu {
+  max-height: 300px;
+  /* Adjust as needed */
+  overflow-y: auto;
+}
+
+.offcanvas .dropdown-menu {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.offcanvas .dropdown-item {
+  white-space: normal;
+  /* Ensures long text wraps properly */
+}
+
+/* Nav Header's Mobole View Aqua  */
+#offcanvasDarkNavbarLabel {
+  color: aqua;
+}
+
+/* welcome */
+/* Welcome Quote Styling */
+#home .container {
+  /* background: #f8f9fa; */
+  background-color: black;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  /* opacity: 0.8; */
+}
+
+#home .container h2 {
+  color: #ffa405;
+}
+
+#home .container p {
+  color: aquamarine;
+  /* color: #ffffff; */
+}
+
+#home .container:hover {
+  /* background: #f8f9face; */
+  /* background-color: #ffa305c1; */
+  color: black;
+  /* opacity: 0.7; */
+  /* opacity: 0.85; */
+  /* border: 0.5px solid black; */
+  border: 1px solid #ffa405;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+
+}
+
+h2 {
+  color: #212529;
+  font-weight: bold;
+}
+
+p.lead {
+  font-style: italic;
+  color: #555;
+  font-weight: bold;
+}
+
+/* Dynamic fixed Block  */
+.fixed-effect {
+  display: inline-block;
+  max-width: 300px;
+  height: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: #ff5722;
+  line-height: 1.5em;
+  /* background-color: rgb(255, 145, 0); */
+  /* border: 2px solid black; */
+}
+
+/* Welcome Dynamic Effect section starts */
+#dynamic-text {
+  font-weight: bold;
+  color: #ff5722;
+}
+
+/* Menu Dynamic Effect  */
+#dynamic-menu-text {
+  font-weight: bold;
+  color: #ff5722;
+}
+
+
+/* General Container Styling */
+/* Heading Colors for Each Category */
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.text-warning {
+  /* color: #ffc107 !important; */
+  color: #ffa405 !important;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+
+/* Objective Section */
+#obj .container {
+  background-color: black;
+  /* Dark background for the container */
+  padding: 40px;
+  /* Increased padding for a more spacious layout */
+  border-radius: 15px;
+  /* Rounded corners for a sleek look */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  /* Soft shadow for depth */
+  color: #ffffff;
+  /* White text for contrast */
+  text-align: center;
+  /* Center text for a clean layout */
+}
+
+/* Text Styling */
+#obj .container p {
+  font-size: 16px;
+  /* Standard text size */
+  line-height: 1.8;
+  /* Better line spacing for readability */
+  color: rgb(255, 255, 255);
+  /* White text color */
+  margin-top: 20px;
+  /* Space above the paragraph */
+}
+
+/* Hover Effect for Container */
+#obj .container:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Slight darkening on hover */
+  border: 1px solid #ffa405;
+  /* Accent border on hover */
+  color: black;
+  /* Text color change to black */
+  background-blend-mode: overlay;
+  /* Smooth background blend effect */
+}
+
+/* Objective Heading */
+.obj {
+  color: #ffa405;
+  /* Golden accent color for heading */
+  font-size: 2rem;
+  /* Larger font size for the heading */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  /* Space below the heading */
+  border-bottom: 3px solid #ffa405;
+  /* Accent underline for emphasis */
+  padding-bottom: 10px;
+  /* Padding below the heading */
+  display: inline-block;
+  /* Align heading centrally */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  #obj .container {
+    padding: 20px;
+    /* Reduced padding on smaller screens */
+  }
+
+  .obj {
+    font-size: 1.5rem;
+    /* Smaller font size for headings on smaller screens */
+  }
+
+  #obj .container p {
+    font-size: 14px;
+    /* Slightly smaller text for paragraphs */
+  }
+}
+
+
+/* Expernice Sectin  */
+/* Experience Section Styling */
+/* Experience Section Styling */
+#exp {
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Dark theme background */
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#exp h2 {
+  color: #ffa405;
+  /* Golden accent for heading */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ffa405;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+#exp .row {
+  display: flex;
+  flex-direction: column;
+  /* Vertical layout for flexibility */
+  gap: 20px;
+}
+
+#exp .col-md-12 {
+  background-color: #121212;
+  /* Slightly lighter background for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#exp .col-md-12:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+}
+
+#exp h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#exp .text-primary {
+  color: #007bff;
+  /* Blue */
+}
+
+#exp .text-success {
+  color: #28a745;
+  /* Green */
+}
+
+#exp .text-danger {
+  color: #dc3545;
+  /* Red */
+}
+
+#exp p {
+  color: aqua;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+#exp ul {
+  margin-left: 20px;
+  list-style-type: disc;
+  color: #ffa405;
+  /* Light text for list items */
+}
+
+#exp ul ul {
+  text-align: left;
+  list-style-type: circle;
+  /* Nested list style */
+}
+
+#exp ul li {
+  margin-bottom: 5px;
+}
+
+/* Hover effect for headings */
+#exp h3:hover {
+  color: #ffa405;
+  /* Highlight color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #exp h2 {
+    font-size: 2rem;
+  }
+
+  #exp h3 {
+    font-size: 1.5rem;
+  }
+
+  #exp p {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* Skills Section */
+#skills {
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Dark background for the section */
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#skills h2 {
+  color: #ffa405;
+  /* Golden accent for heading */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ffa405;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skill-item {
+  background-color: #121212;
+  /* Slightly lighter background for individual skills */
+  color: rgb(0, 255, 8);
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+}
+
+.skill-item span {
+  font-weight: bold;
+}
+
+.skill-item .btn {
+  color: #fff;
+  background-color: #007bff;
+  /* Button color */
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.skill-item .btn:hover {
+  background-color: #0056b3;
+  /* Darker shade on hover */
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #skills h2 {
+    font-size: 2rem;
+  }
+
+  .skill-item {
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skill-item .btn {
+    margin-top: 10px;
+  }
+}
+
+/* Projects Section */
+#projects {
+  background-color: #121212;
+  /* Dark background to match theme */
+  padding: 50px 0;
+  color: #ffffff;
+  /* White text for contrast */
+}
+
+#projects .container h2 {
+  font-size: 2rem;
+  color: #ffa405;
+  /* Golden color for the heading */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Individual Project Cards */
+.project-card {
+  background-color: #1e1e1e;
+  /* Dark background for cards */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  /* Soft shadow for depth */
+  color: #fff;
+  transition: transform 0.3s ease;
+  /* Smooth transition on hover */
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  /* Hover effect to raise the card */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  /* More prominent shadow on hover */
+}
+
+/* Project Titles */
+.project-card h4 {
+  color: #ffa405;
+  /* Golden accent for project title */
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Project Links */
+.project-card a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+  background-color: #ff5722;
+  /* Hover effect for links */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #projects .container h2 {
+    font-size: 1.5rem;
+    /* Smaller heading on mobile */
+  }
+
+  .project-card {
+    padding: 15px;
+    /* Adjust padding for smaller screens */
+  }
+}
+
+
+/* Education  */
+/* Education Section */
+#education {
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Dark background for the section */
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#education h2 {
+  color: #ffa405;
+  /* Golden accent for heading */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ffa405;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Education Item Styling */
+.edu-item {
+  background-color: #121212;
+  /* Slightly lighter background for each item */
+  color: aquamarine;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 10px;
+  /* Spacing between items */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  /* Set a fixed height for each item */
+}
+
+.edu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+}
+
+/* Heading Colors for Each Education Item */
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+/* Center Align the Education Items */
+#education .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  /* Add consistent spacing between items */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #education h2 {
+    font-size: 2rem;
+  }
+
+  .edu-item {
+    font-size: 1rem;
+    width: 90%;
+    /* Take up more width on smaller screens */
+  }
+}
+
+
+/* About Section */
+#about {
+  padding: 50px 0;
+}
+
+#about .container {
+  /* background-color: rgba(60, 66, 73, 0.8); */
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#about h2 {
+  color: #ffa405;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#about .lead {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+#about .lead strong {
+  color: #ffa405;
+}
+
+#about .container:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  border: 1px solid #ffa405;
+}
+
+
+/* Contact Section */
+#contact {
+  padding: 50px 0;
+}
+
+#contact .container {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#contact .container:hover {
+  background-color: rgba(26, 30, 33, 0.75);
+  background-blend-mode: overlay;
+}
+
+#contact h2 {
+  color: #ffa405;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Compact Buttons */
+#contact .btn {
+  font-size: 0.9rem;
+  /* Reduced font size */
+  padding: 10px 15px;
+  /* Reduced padding */
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+#contact .btn:hover {
+  opacity: 0.9;
+}
+
+#contact .btn i {
+  margin-right: 8px;
+  /* Reduced margin between icon and text */
+}
+
+#contact .btn-primary {
+  background-color: #007bff;
+}
+
+#contact .btn-warning {
+  background-color: #ffc107;
+}
+
+#contact .btn-success {
+  background-color: #28a745;
+}
+
+#contact .btn-dark {
+  background-color: #343a40;
+}
+
+#contact .btn-info {
+  background-color: #17a2b8;
+}
+
+#contact .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+#contact .btn-warning:hover {
+  background-color: #e0a800;
+}
+
+#contact .btn-success:hover {
+  background-color: #218838;
+}
+
+#contact .btn-dark:hover {
+  background-color: #23272b;
+}
+
+#contact .btn-info:hover {
+  background-color: #138496;
+}
+
+
+
+
+/* Footer */
+footer {
+  background-color: #ffa405;
+  /* background-color: #000000; */
+
+  color: #000000;
+  text-align: center;
+  padding: 15px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  opacity: 0.5;
+  /* Start with transparency */
+  transition: opacity 0.5s ease;
+  /* Smooth transition for opacity */
+}
+
+/* Back to Top Button */
+#backToTopBtn {
+  position: fixed;
+  bottom: 80px;
+  /* Place it above the footer */
+  right: 20px;
+  display: none;
+  /* Initially hidden */
+  z-index: 1000;
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+
+/* Bottom Message */
+#bottomMessage {
+  position: fixed;
+  bottom: 40px;
+  /* Above the back-to-top button */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+
+@media (max-width: 768px) {
+  footer {
+    /* height: auto; */
+    height: 55px;
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  #backToTopBtn {
+    bottom: 100px;
+    /* Adjust for smaller screens */
+  }
+
+  #bottomMessage {
+    bottom: 40px;
+    /* Ensure it doesn't overlap with the button */
+  }
+}
