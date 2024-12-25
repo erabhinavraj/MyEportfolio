@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>theAbhinavRaj</title>
-  <meta name="description"
-    content="theAbhinavRaj, Portfolio of Abhinav">
-  <meta name="keywords"
-    content="Abhinav's Portfolio">
+  <meta name="description" content="theAbhinavRaj, Portfolio of Abhinav">
+  <meta name="keywords" content="Abhinav's Portfolio">
   <link rel="stylesheet" href="style.css">
   <!-- Bootstrap CSS (in the <head> section) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -66,7 +64,10 @@
                 <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://drive.google.com/file/d/1OQth1uWNnQU8dI4bJlgAsA-Q1LXvSymB/view?usp=sharing" target="_blank"> <i class="bi bi-file-earmark-pdf"></i> Download Resume</a>
+                <a class="nav-link"
+                  href="https://drive.google.com/uc?export=download&id=1OQth1uWNnQU8dI4bJlgAsA-Q1LXvSymB">
+                  <i class="bi bi-file-earmark-pdf"></i> Download Resume
+                </a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#contact" role="button" data-bs-toggle="dropdown"
@@ -139,26 +140,18 @@
       </div>
     </section>
 
-    <!-- Objective Section  -->
-
-
+    <!-- Objective Section -->
     <section id="obj" class="container-fluid">
       <div class="container">
         <h3 class="obj">Objective</h3>
-        <p>
-          I'm an experienced Software Developer at Tata Consultancy Services
-          Pvt. Ltd. since January 2022, contributing to the growth of one of
-          Asia's leading MNCs. <br>With over 2 years of expertise in
-          <strong>Java, JavaScript, HTML5, CSS, Node.js, SQL</strong>, and more
-          than 3 years of overall experience in the tech industry, I bring a
-          strong foundation in delivering innovative solutions. Currently, I am
-          an aspiring <strong>Java Full Stack Developer</strong>, honing my
-          skills through a program at <strong>IIT Roorkee</strong>.
-        </p>
+        <!-- Dynamic Typing Effect for Objective Section -->
+        <p id="dynamic-text-obj"></p>
       </div>
     </section>
 
-    <!-- Experince Section  -->
+
+
+    <!-- Experience Section -->
     <section id="exp" class="container-fluid py-5">
       <div class="container">
         <h2 class="text-center mb-4">Experience</h2>
@@ -166,8 +159,8 @@
 
           <!-- TCS Experience -->
           <div class="col-md-12 mb-4">
-            <h3 class="text-primary">Tata Consultancy Services</h3>
-            <p><strong>Role:</strong> Developer</p>
+            <h3 class="text-primary" id="dynamic-tcs"></h3>
+            <p><strong>Role:</strong> <span id="dynamic-role-tcs"></span></p>
             <p><strong>Duration:</strong> 2022 - Present</p>
             <p>I take pride in being part of Tata Consultancy Services (TCS) as a Developer, actively contributing to
               projects and ongoing development.</p>
@@ -175,12 +168,7 @@
             <ul>
               <li>Currently pursuing a role as a Developer.</li>
               <li>Utilizing expertise in the following Tech stack:</li>
-              <ul>
-                <li>JAVA Full Stack</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-                <li>HTML5</li>
-                <li>CSS</li>
+              <ul id="dynamic-stack-tcs">
               </ul>
             </ul>
             <p><strong>Professional Affiliation:</strong> I am delighted to identify myself as a TCSer, contributing to
@@ -189,14 +177,14 @@
 
           <!-- Alobha Technology Experience -->
           <div class="col-md-12 mb-4">
-            <h3 class="text-success">Alobha Technology</h3>
-            <p><strong>Role:</strong> Intern Full Stack Developer</p>
+            <h3 class="text-success" id="dynamic-alobha"></h3>
+            <p><strong>Role:</strong> <span id="dynamic-role-alobha"></span></p>
             <p><strong>Duration:</strong> 2020 - 2021</p>
             <p>Full Stack Developer with expertise in building scalable and robust web applications. Proficient in
               front-end technologies like React, combined with strong back-end skills in Java, Spring Boot, and
               Hibernate.</p>
             <p><strong>Key Skills:</strong></p>
-            <ul>
+            <ul id="dynamic-skills-alobha">
               <li>Designing and implementing RESTful APIs.</li>
               <li>Managing databases using MySQL.</li>
               <li>Deploying applications on cloud platforms like AWS.</li>
@@ -209,13 +197,13 @@
 
           <!-- Quick Heal Experience -->
           <div class="col-md-12">
-            <h3 class="text-danger">Quick Heal Pvt Ltd</h3>
-            <p><strong>Role:</strong> Intern</p>
+            <h3 class="text-danger" id="dynamic-quickheal"></h3>
+            <p><strong>Role:</strong> <span id="dynamic-role-quickheal"></span></p>
             <p><strong>Duration:</strong> 2019 - 2020</p>
             <p>Ethical Training - Quick Heal Pvt Ltd</p>
             <p>During this comprehensive training module, I acquired valuable skills and knowledge in various aspects:
             </p>
-            <ul>
+            <ul id="dynamic-skills-quickheal">
               <li>Practical understanding of Kali Linux, including basic operations and programming on the Linux
                 platform.</li>
               <li>Proficiency in utilizing tools supported by Linux for diverse applications.</li>
@@ -229,68 +217,90 @@
       </div>
     </section>
 
-    <!-- Skill Section starts  -->
+
     <section id="skills" class="container-fluid py-5">
       <div class="container">
         <h2 class="text-center mb-4">Skills</h2>
         <div class="row">
-          <!-- Skill Item -->
+          <!-- Skill Item - Java Full Stack Developer -->
           <div class="col-md-6 mb-4">
             <div class="skill-item d-flex justify-content-between align-items-center">
-              <span>Java Full Stack Developer (Certified from IIT Roorkee)</span>
-              <a href="https://eict.iitr.ac.in/wp-content/uploads/IITR-GL-FSD-A2O-24-18-scaled.jpg" target="_blank" class="btn btn-primary btn-sm">View</a>
+              <span id="dynamic-skill-1"></span>
+              <a href="https://eict.iitr.ac.in/wp-content/uploads/IITR-GL-FSD-A2O-24-18-scaled.jpg" target="_blank"
+                class="btn btn-primary btn-sm">View</a>
             </div>
           </div>
+
+          <!-- Skill Item - JavaScript -->
           <div class="col-md-6 mb-4">
             <div class="skill-item">
-              <span>JavaScript</span>
+              <span id="dynamic-skill-2"></span>
             </div>
           </div>
+
+          <!-- Skill Item - HTML5 -->
           <div class="col-md-6 mb-4">
             <div class="skill-item">
-              <span>HTML5</span>
+              <span id="dynamic-skill-3"></span>
             </div>
           </div>
+
+          <!-- Skill Item - CSS -->
           <div class="col-md-6 mb-4">
             <div class="skill-item">
-              <span>CSS (Cascading Style Sheet)</span>
+              <span id="dynamic-skill-4"></span>
             </div>
           </div>
+
+          <!-- Skill Item - SQL -->
           <div class="col-md-6 mb-4">
             <div class="skill-item">
-              <span>SQL</span>
+              <span id="dynamic-skill-5"></span>
             </div>
           </div>
+
+          <!-- Skill Item - React Js -->
           <div class="col-md-6 mb-4">
             <div class="skill-item">
-              <span>React Js</span>
+              <span id="dynamic-skill-6"></span>
             </div>
           </div>
+
+          <!-- Skill Item - Spring Boot -->
           <div class="col-md-6 mb-4">
             <div class="skill-item">
-              <span>Spring Boot</span>
+              <span id="dynamic-skill-7"></span>
             </div>
           </div>
+
+          <!-- Skill Item - Git & GitHub -->
           <div class="col-md-6 mb-4">
             <div class="skill-item">
-              <span>Git & GitHub (Version Control)</span>
+              <span id="dynamic-skill-8"></span>
             </div>
           </div>
+
+          <!-- Skill Item - Python -->
           <div class="col-md-6 mb-4">
             <div class="skill-item d-flex justify-content-between align-items-center">
-              <span>Python (Certified from Microsoft)</span>
-              <a href="https://drive.google.com/file/d/1sR9rNa96fsd_saFwb7WeilxrunsNMJ01/view?usp=sharing" target="_blank" class="btn btn-primary btn-sm">View</a>
+              <span id="dynamic-skill-9"></span>
+              <a href="https://drive.google.com/file/d/1sR9rNa96fsd_saFwb7WeilxrunsNMJ01/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm">View</a>
             </div>
           </div>
+
+          <!-- Skill Item - View Resume -->
           <div class="col-md-6 mb-4">
             <div class="skill-item d-flex justify-content-between align-items-center">
-              <span style="color: #ffa405;">View my Resume</span>
-              <a href="https://drive.google.com/file/d/1OQth1uWNnQU8dI4bJlgAsA-Q1LXvSymB/view?usp=drive_link" target="_blank" class="btn btn-primary btn-sm"> <i class="bi bi-file-earmark-pdf"></i> View</a>
+              <span id="dynamic-skill-10" style="color: #ffa405;"></span>
+              <a href="https://drive.google.com/file/d/1OQth1uWNnQU8dI4bJlgAsA-Q1LXvSymB/view?usp=drive_link"
+                target="_blank" class="btn btn-primary btn-sm"> <i class="bi bi-file-earmark-pdf"></i> View</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <section id="projects" class="container-fluid py-5">
       <div class="container">
@@ -389,12 +399,15 @@
           <div class="col-md-12">
             <p class="lead text-white">
               Hello, I'm <strong>ABHINAV RAJ</strong>, a seasoned engineer with a background in software development at
-              <span style="color: rgb(233, 26, 171);">Tata Consultancy Services Pvt Ltd</span> since January 2022. Skilled in <span style="color: red;">Java, JavaScript, HTML5, CSS, SQL, React
-                Framework, Spring Boot, and Git & GitHub</span>. I hold a Java FSD and Python certification from IIT Roorkee and
+              <span style="color: rgb(233, 26, 171);">Tata Consultancy Services Pvt Ltd</span> since January 2022.
+              Skilled in <span style="color: red;">Java, JavaScript, HTML5, CSS, SQL, React
+                Framework, Spring Boot, and Git & GitHub</span>. I hold a Java FSD and Python certification from IIT
+              Roorkee and
               Microsoft respectively, showcasing my commitment to ongoing learning and a knack for problem-solving.
             </p>
             <p class="lead text-white">
-              During my tenure at TCS, I've thrived as a multitasking engineer, specializing in <strong>Java Full Stack Technology</strong> along with backend like SQL and Spring Boot, while also exploring
+              During my tenure at TCS, I've thrived as a multitasking engineer, specializing in <strong>Java Full Stack
+                Technology</strong> along with backend like SQL and Spring Boot, while also exploring
               front-end technologies. I've adeptly applied Agile Methodology, demonstrating leadership in team settings
               and fostering collaborative work environments. As an ambitious Full Stack Developer alum from IIT Roorkee,
               my journey has continually refined my technical prowess, reinforcing my confidence in tackling complex
