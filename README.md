@@ -58,12 +58,12 @@ Alternatively, you can host the website on a web server (e.g., GitHub Pages) for
 
 ## Live Demo
 Check out the live version of my portfolio website:
-[Abhinav Raj's Portfolio](#)
+[Abhinav Raj's Portfolio](https://theabhinavraj.netlify.app)
 
 ## Contact
 Feel free to reach out for collaboration or inquiries:
 - **Email**: [abhinavraj0000@gmail.com](mailto:abhinavraj0000@gmail.com)
-- **LinkedIn**: [LinkedIn Profile]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/abhinav-raj-iitR/))
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/abhinav-raj-iitR)
 - **GitHub**: [erabhinavraj](https://github.com/erabhinavraj)
 
 ---
