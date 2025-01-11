@@ -1,6 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Website loaded successfully.");
 
+  // Disable F12 and Ctrl+Shift+I for opening Developer Tools
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+        e.preventDefault();
+    }
+});
+
+// Disable right-click context menu
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+}, false);
+
   // Close offcanvas when any non-dropdown nav-link is clicked
   document
     .querySelectorAll(".offcanvas-body .nav-link:not(.dropdown-toggle)")
