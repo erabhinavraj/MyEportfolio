@@ -16,10 +16,17 @@ main {
   font-family: sans-serif;
   text-align: center;
   /* background-image: url(spacebg.jpg); */
-  background-image: url(starbg.jpg);
   /* background-image: url(starbg.jpg); */
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  background-color: whitesmoke;
   background-blend-mode: overlay;
+  /* background: linear-gradient(to right, #ff6a88, #ff99ac); */
+  /* background: linear-gradient(rgba(255, 0, 150, 0.8), rgba(0, 255, 255, 0.8)); */
+  /* background: linear-gradient(to right, #ff6a88, #ff99ac);    */
+  /* background: linear-gradient(to left, #ff6a88, #ff99ac);    */
+  background: linear-gradient(to left, #ff7e5f, #feb47b);
+  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+ 
 }
 
 
@@ -68,7 +75,12 @@ section {
 /* Welcome Quote Styling */
 #home .container {
   /* background: #f8f9fa; */
-  background-color: black;
+  /* background-color: black; */
+  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+  /* background: linear-gradient(to right, #00416a, #e4e5e6, #1e3c72); */
+  background: linear-gradient(to right, #e34a24, #96e9d6, #e354c4);
+
+
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -76,23 +88,30 @@ section {
 }
 
 #home .container h2 {
-  color: #ffa405;
+  /* color: #ffa405; */
+  color: #000000;
+  font-weight: bold;
 }
 
 #home .container p {
-  color: aquamarine;
+  color: rgb(255, 0, 85);
   /* color: #ffffff; */
 }
 
 #home .container:hover {
   /* background: #f8f9face; */
   /* background-color: #ffa305c1; */
-  color: black;
+  /* color: black; */
   /* opacity: 0.7; */
   /* opacity: 0.85; */
   /* border: 0.5px solid black; */
+  /* background: linear-gradient(to left, #ff7e5f, #feb47b); */
+  /* background: linear-gradient(to right, #e4e5e6, #00416a,#e4e5e6); */
+  background: linear-gradient(to left, #e34a24, #96e9d6, #e354c4);
+
+
   border: 1px solid #ffa405;
-  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: rgba(0, 0, 0, 0.9); */
   background-blend-mode: overlay;
 
 }
@@ -162,7 +181,10 @@ p.lead {
 
 /* Objective Section */
 #obj .container {
-  background-color: black;
+  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+
+  /* background-color: black; */
   /* Dark background for the container */
   padding: 40px;
   /* Increased padding for a more spacious layout */
@@ -190,7 +212,10 @@ p.lead {
 
 /* Hover Effect for Container */
 #obj .container:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  /* background: linear-gradient(to left, #ff7e5f, #feb47b); */
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
   /* Slight darkening on hover */
   border: 1px solid #ffa405;
   /* Accent border on hover */
@@ -202,7 +227,7 @@ p.lead {
 
 /* Objective Heading */
 .obj {
-  color: #ffa405;
+  color: #000000;
   /* Golden accent color for heading */
   font-size: 2rem;
   /* Larger font size for the heading */
@@ -211,7 +236,7 @@ p.lead {
   text-align: center;
   margin-bottom: 30px;
   /* Space below the heading */
-  border-bottom: 3px solid #ffa405;
+  border-bottom: 3px solid #000000;
   /* Accent underline for emphasis */
   padding-bottom: 10px;
   /* Padding below the heading */
@@ -243,22 +268,24 @@ p.lead {
 /* Experience Section Styling */
 /* Experience Section Styling */
 #exp {
-  background-color: rgba(0, 0, 0, 0.9);
+  /* background-color: rgba(0, 0, 0, 0.7); */
   /* Dark theme background */
+  background: linear-gradient(to right, #ff6a88, #ff99ac);   
+
   padding: 40px 20px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 #exp h2 {
-  color: #ffa405;
+  color: #000000;
   /* Golden accent for heading */
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
-  border-bottom: 2px solid #ffa405;
+  border-bottom: 2px solid #000000;
   display: inline-block;
   padding-bottom: 5px;
 }
@@ -271,7 +298,9 @@ p.lead {
 }
 
 #exp .col-md-12 {
-  background-color: #121212;
+  /* background-color: #121212; */
+  background: linear-gradient(to right, #000000, #e23b00, #ff4e00);
+
   /* Slightly lighter background for contrast */
   padding: 20px;
   border-radius: 10px;
@@ -353,7 +382,10 @@ p.lead {
 
 /* Skills Section */
 #skills {
-  background-color: rgba(0, 0, 0, 0.9);
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background: linear-gradient(to right, #ff6a88, #ff99ac);   
+
   /* Dark background for the section */
   padding: 40px 20px;
   border-radius: 15px;
@@ -361,22 +393,24 @@ p.lead {
 }
 
 #skills h2 {
-  color: #ffa405;
+  color: #000000;
   /* Golden accent for heading */
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
-  border-bottom: 2px solid #ffa405;
+  border-bottom: 2px solid #000000;
   display: inline-block;
   padding-bottom: 5px;
 }
 
 .skill-item {
-  background-color: #121212;
+  /* background-color: #121212; */
+  background: linear-gradient(135deg, #ffe259, #ffa751);
+
   /* Slightly lighter background for individual skills */
-  color: rgb(0, 255, 8);
+  color: rgb(2, 25, 3);
   padding: 15px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
@@ -434,7 +468,11 @@ p.lead {
 
 /* Projects Section */
 #projects {
-  background-color: #121212;
+  /* background-color: #121212; */
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background: linear-gradient(to right, #ff6a88, #ff99ac);   
+
+  border-radius: 15px;
   /* Dark background to match theme */
   padding: 50px 0;
   color: #ffffff;
@@ -443,16 +481,19 @@ p.lead {
 
 #projects .container h2 {
   font-size: 2rem;
-  color: #ffa405;
+  color: #000000;
   /* Golden color for the heading */
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
+  /* border-bottom: 2px solid #000000; */
+
 }
 
 /* Individual Project Cards */
 .project-card {
-  background-color: #1e1e1e;
+  /* background-color: #1e1e1e; */
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
   /* Dark background for cards */
   padding: 20px;
   border-radius: 10px;
@@ -511,7 +552,10 @@ p.lead {
 /* Education  */
 /* Education Section */
 #education {
-  background-color: rgba(0, 0, 0, 0.9);
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background: linear-gradient(to right, #ff6a88, #ff99ac);   
+
   /* Dark background for the section */
   padding: 40px 20px;
   border-radius: 15px;
@@ -519,21 +563,23 @@ p.lead {
 }
 
 #education h2 {
-  color: #ffa405;
+  color: #000000;
   /* Golden accent for heading */
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
-  border-bottom: 2px solid #ffa405;
+  border-bottom: 2px solid #000000;
   display: inline-block;
   padding-bottom: 5px;
 }
 
 /* Education Item Styling */
 .edu-item {
-  background-color: #121212;
+  /* background-color: #121212; */
+  background: linear-gradient(to right, #e54d6b, #e5d740);
+
   /* Slightly lighter background for each item */
   color: aquamarine;
   padding: 20px;
@@ -604,7 +650,9 @@ p.lead {
 
 #about .container {
   /* background-color: rgba(60, 66, 73, 0.8); */
-  background-color: rgba(0, 0, 0, 0.6);
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  background: linear-gradient(to right, #4b0082, #8a2be2, #dda0dd);
+
   background-blend-mode: overlay;
 
   padding: 30px;
@@ -613,11 +661,14 @@ p.lead {
 }
 
 #about h2 {
-  color: #ffa405;
+  color: #ffffff;
   font-size: 2rem;
   text-align: center;
   font-weight: bold;
   margin-bottom: 30px;
+  border-bottom: 2px solid #000000;
+  text-transform: uppercase;
+  display: inline-block;
 }
 
 #about .lead {
@@ -638,6 +689,7 @@ p.lead {
 }
 
 
+
 /* Contact Section */
 #contact {
   padding: 50px 0;
@@ -647,20 +699,30 @@ p.lead {
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  background-color: rgba(0, 0, 0, 0.6);
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  background: linear-gradient(to right, #b87333, #daa520, #f5deb3);
+
 }
 
 #contact .container:hover {
-  background-color: rgba(26, 30, 33, 0.75);
+  /* background-color: rgba(26, 30, 33, 0.75); */
+  background: linear-gradient(to left, #b87333, #daa520, #f5deb3);
+
   background-blend-mode: overlay;
 }
 
 #contact h2 {
-  color: #ffa405;
+  color: #000000;
   font-size: 2rem;
   text-align: center;
+  display: inline-block;
+
   font-weight: bold;
   margin-bottom: 30px;
+  border-bottom: 2px solid #000000;
+  text-transform: uppercase;
+
+
 }
 
 /* Compact Buttons */
