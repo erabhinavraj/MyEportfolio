@@ -4,11 +4,11 @@ body {
   margin: 0;
   padding: 0;
   /* background-color: #ffffff; */
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
-
 /* Main Content */
-
 main {
   padding: 20px;
   height: 100%;
@@ -17,39 +17,33 @@ main {
   text-align: center;
   /* background-image: url(spacebg.jpg); */
   /* background-image: url(starbg.jpg); */
-  /* background-color: rgba(0, 0, 0, 0.9); */
-  background-color: whitesmoke;
+  /* background-image: url(starbg.jpg); */
+  background-color: #1e1e1e;
+  color: #e0e0e0;
   background-blend-mode: overlay;
-  /* background: linear-gradient(to right, #ff6a88, #ff99ac); */
-  /* background: linear-gradient(rgba(255, 0, 150, 0.8), rgba(0, 255, 255, 0.8)); */
-  /* background: linear-gradient(to right, #ff6a88, #ff99ac);    */
-  /* background: linear-gradient(to left, #ff6a88, #ff99ac);    */
-  background: linear-gradient(to left, #ff7e5f, #feb47b);
-  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
- 
 }
-
 
 section {
   padding: 15px;
   margin: 20px;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
 }
 
-/*Navigation */
-
-/* Navigation's list txt  */
+/* Navigation */
 .navbar-nav .nav-link,
 .dropdown-item {
   color: #ffa405 !important;
+  font-weight: bold;
 }
 
 .navbar-nav .nav-link:hover,
 .dropdown-item:hover {
   color: #ffb933;
+  text-decoration: underline;
 }
 
 /* Dropdown list alignment  */
-
 .dropdown-menu {
   max-height: 300px;
   /* Adjust as needed */
@@ -75,45 +69,33 @@ section {
 /* Welcome Quote Styling */
 #home .container {
   /* background: #f8f9fa; */
-  /* background-color: black; */
-  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
-  /* background: linear-gradient(to right, #00416a, #e4e5e6, #1e3c72); */
-  background: linear-gradient(to right, #e34a24, #96e9d6, #e354c4);
-
-
+  background-color: #1e1e1e;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   /* opacity: 0.8; */
+  color: #e0e0e0;
 }
 
 #home .container h2 {
-  /* color: #ffa405; */
-  color: #000000;
-  font-weight: bold;
+  color: #ffa405;
 }
 
 #home .container p {
-  color: rgb(255, 0, 85);
+  color: aquamarine;
   /* color: #ffffff; */
 }
 
 #home .container:hover {
   /* background: #f8f9face; */
   /* background-color: #ffa305c1; */
-  /* color: black; */
+  color: #ffa405;
   /* opacity: 0.7; */
   /* opacity: 0.85; */
   /* border: 0.5px solid black; */
-  /* background: linear-gradient(to left, #ff7e5f, #feb47b); */
-  /* background: linear-gradient(to right, #e4e5e6, #00416a,#e4e5e6); */
-  background: linear-gradient(to left, #e34a24, #96e9d6, #e354c4);
-
-
   border: 1px solid #ffa405;
-  /* background-color: rgba(0, 0, 0, 0.9); */
+  background-color: #333;
   background-blend-mode: overlay;
-
 }
 
 h2 {
@@ -154,7 +136,6 @@ p.lead {
   color: #ff5722;
 }
 
-
 /* General Container Styling */
 /* Heading Colors for Each Category */
 .text-primary {
@@ -178,13 +159,9 @@ p.lead {
   color: #17a2b8 !important;
 }
 
-
 /* Objective Section */
 #obj .container {
-  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
-  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
-
-  /* background-color: black; */
+  background-color: #1e1e1e;
   /* Dark background for the container */
   padding: 40px;
   /* Increased padding for a more spacious layout */
@@ -192,7 +169,7 @@ p.lead {
   /* Rounded corners for a sleek look */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   /* Soft shadow for depth */
-  color: #ffffff;
+  color: #e0e0e0;
   /* White text for contrast */
   text-align: center;
   /* Center text for a clean layout */
@@ -212,14 +189,11 @@ p.lead {
 
 /* Hover Effect for Container */
 #obj .container:hover {
-  /* background-color: rgba(0, 0, 0, 0.9); */
-  /* background: linear-gradient(to left, #ff7e5f, #feb47b); */
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-
+  background-color: #333;
   /* Slight darkening on hover */
   border: 1px solid #ffa405;
   /* Accent border on hover */
-  color: black;
+  color: #ffa405;
   /* Text color change to black */
   background-blend-mode: overlay;
   /* Smooth background blend effect */
@@ -227,7 +201,7 @@ p.lead {
 
 /* Objective Heading */
 .obj {
-  color: #000000;
+  color: #ffa405;
   /* Golden accent color for heading */
   font-size: 2rem;
   /* Larger font size for the heading */
@@ -236,7 +210,7 @@ p.lead {
   text-align: center;
   margin-bottom: 30px;
   /* Space below the heading */
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid #ffa405;
   /* Accent underline for emphasis */
   padding-bottom: 10px;
   /* Padding below the heading */
@@ -262,30 +236,27 @@ p.lead {
   }
 }
 
-
-
 /* Expernice Sectin  */
 /* Experience Section Styling */
 /* Experience Section Styling */
 #exp {
-  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-color: #1e1e1e;
   /* Dark theme background */
-  background: linear-gradient(to right, #ff6a88, #ff99ac);   
-
   padding: 40px 20px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  color: #e0e0e0;
 }
 
 #exp h2 {
-  color: #000000;
+  color: #ffa405;
   /* Golden accent for heading */
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #ffa405;
   display: inline-block;
   padding-bottom: 5px;
 }
@@ -298,9 +269,7 @@ p.lead {
 }
 
 #exp .col-md-12 {
-  /* background-color: #121212; */
-  background: linear-gradient(to right, #000000, #e23b00, #ff4e00);
-
+  background-color: #2c2c2c;
   /* Slightly lighter background for contrast */
   padding: 20px;
   border-radius: 10px;
@@ -311,6 +280,7 @@ p.lead {
 #exp .col-md-12:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+  background-color: #444;
 }
 
 #exp h3 {
@@ -379,38 +349,34 @@ p.lead {
   }
 }
 
-
 /* Skills Section */
 #skills {
   /* background-color: rgba(0, 0, 0, 0.9); */
-  /* background-color: rgba(0, 0, 0, 0.7); */
-  background: linear-gradient(to right, #ff6a88, #ff99ac);   
-
+  background-color: #1e1e1e;
   /* Dark background for the section */
   padding: 40px 20px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  color: #e0e0e0;
 }
 
 #skills h2 {
-  color: #000000;
+  color: #ffa405;
   /* Golden accent for heading */
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #ffa405;
   display: inline-block;
   padding-bottom: 5px;
 }
 
 .skill-item {
-  /* background-color: #121212; */
-  background: linear-gradient(135deg, #ffe259, #ffa751);
-
+  background-color: #2c2c2c;
   /* Slightly lighter background for individual skills */
-  color: rgb(2, 25, 3);
+  color: rgb(0, 255, 8);
   padding: 15px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
@@ -425,6 +391,7 @@ p.lead {
 .skill-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+  background-color: #444;
 }
 
 .skill-item span {
@@ -469,31 +436,26 @@ p.lead {
 /* Projects Section */
 #projects {
   /* background-color: #121212; */
-  /* background-color: rgba(0, 0, 0, 0.7); */
-  background: linear-gradient(to right, #ff6a88, #ff99ac);   
-
+  background-color: #1e1e1e;
   border-radius: 15px;
   /* Dark background to match theme */
   padding: 50px 0;
-  color: #ffffff;
+  color: #e0e0e0;
   /* White text for contrast */
 }
 
 #projects .container h2 {
   font-size: 2rem;
-  color: #000000;
+  color: #ffa405;
   /* Golden color for the heading */
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
-  /* border-bottom: 2px solid #000000; */
-
 }
 
 /* Individual Project Cards */
 .project-card {
-  /* background-color: #1e1e1e; */
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  background-color: #2c2c2c;
   /* Dark background for cards */
   padding: 20px;
   border-radius: 10px;
@@ -509,6 +471,7 @@ p.lead {
   /* Hover effect to raise the card */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   /* More prominent shadow on hover */
+  background-color: #444;
 }
 
 /* Project Titles */
@@ -548,38 +511,34 @@ p.lead {
   }
 }
 
-
 /* Education  */
 /* Education Section */
 #education {
   /* background-color: rgba(0, 0, 0, 0.9); */
-  /* background-color: rgba(0, 0, 0, 0.7); */
-  background: linear-gradient(to right, #ff6a88, #ff99ac);   
-
+  background-color: #1e1e1e;
   /* Dark background for the section */
   padding: 40px 20px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  color: #e0e0e0;
 }
 
 #education h2 {
-  color: #000000;
+  color: #ffa405;
   /* Golden accent for heading */
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #ffa405;
   display: inline-block;
   padding-bottom: 5px;
 }
 
 /* Education Item Styling */
 .edu-item {
-  /* background-color: #121212; */
-  background: linear-gradient(to right, #e54d6b, #e5d740);
-
+  background-color: #2c2c2c;
   /* Slightly lighter background for each item */
   color: aquamarine;
   padding: 20px;
@@ -600,6 +559,7 @@ p.lead {
 .edu-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+  background-color: #444;
 }
 
 /* Heading Colors for Each Education Item */
@@ -642,7 +602,6 @@ p.lead {
   }
 }
 
-
 /* About Section */
 #about {
   padding: 50px 0;
@@ -650,25 +609,20 @@ p.lead {
 
 #about .container {
   /* background-color: rgba(60, 66, 73, 0.8); */
-  /* background-color: rgba(0, 0, 0, 0.6); */
-  background: linear-gradient(to right, #4b0082, #8a2be2, #dda0dd);
-
+  background-color: #1e1e1e;
   background-blend-mode: overlay;
-
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  color: #e0e0e0;
 }
 
 #about h2 {
-  color: #ffffff;
+  color: #ffa405;
   font-size: 2rem;
   text-align: center;
   font-weight: bold;
   margin-bottom: 30px;
-  border-bottom: 2px solid #000000;
-  text-transform: uppercase;
-  display: inline-block;
 }
 
 #about .lead {
@@ -683,12 +637,10 @@ p.lead {
 }
 
 #about .container:hover {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: #333;
   color: #fff;
   border: 1px solid #ffa405;
 }
-
-
 
 /* Contact Section */
 #contact {
@@ -699,30 +651,21 @@ p.lead {
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  /* background-color: rgba(0, 0, 0, 0.6); */
-  background: linear-gradient(to right, #b87333, #daa520, #f5deb3);
-
+  background-color: #1e1e1e;
+  color: #e0e0e0;
 }
 
 #contact .container:hover {
-  /* background-color: rgba(26, 30, 33, 0.75); */
-  background: linear-gradient(to left, #b87333, #daa520, #f5deb3);
-
+  background-color: #333;
   background-blend-mode: overlay;
 }
 
 #contact h2 {
-  color: #000000;
+  color: #ffa405;
   font-size: 2rem;
   text-align: center;
-  display: inline-block;
-
   font-weight: bold;
   margin-bottom: 30px;
-  border-bottom: 2px solid #000000;
-  text-transform: uppercase;
-
-
 }
 
 /* Compact Buttons */
@@ -786,24 +729,24 @@ p.lead {
   background-color: #138496;
 }
 
-
-
-
 /* Footer */
 footer {
-  background-color: #ffa405;
+  background-color: #1e1e1e;
   /* background-color: #000000; */
-
-  color: #000000;
+  color: #e0e0e0;
   text-align: center;
   padding: 15px;
   bottom: 0;
   width: 100%;
   height: 50px;
-  opacity: 0.5;
+  opacity: 1;
   /* Start with transparency */
   transition: opacity 0.5s ease;
   /* Smooth transition for opacity */
+}
+
+footer:hover {
+  opacity: 0.8;
 }
 
 /* Back to Top Button */
@@ -817,6 +760,12 @@ footer {
   z-index: 1000;
   border-radius: 50%;
   padding: 10px 15px;
+  background-color: #ffa405;
+  color: #000;
+}
+
+#backToTopBtn:hover {
+  background-color: #ffb933;
 }
 
 /* Bottom Message */
@@ -827,8 +776,13 @@ footer {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
+  background-color: #ffa405;
+  color: #000;
 }
 
+#bottomMessage:hover {
+  background-color: #ffb933;
+}
 
 @media (max-width: 768px) {
   footer {
