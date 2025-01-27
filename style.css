@@ -4,7 +4,9 @@ body {
   margin: 0;
   padding: 0;
   /* background-color: #ffffff; */
-  background-color: #121212;
+  /* background-color: #121212; */
+  background: linear-gradient(to bottom, #000000, #434343);
+
   color: #e0e0e0;
 }
 
@@ -18,7 +20,8 @@ main {
   /* background-image: url(spacebg.jpg); */
   /* background-image: url(starbg.jpg); */
   /* background-image: url(starbg.jpg); */
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #000000, #434343);
+
   color: #e0e0e0;
   background-blend-mode: overlay;
 }
@@ -26,7 +29,7 @@ main {
 section {
   padding: 15px;
   margin: 20px;
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #000000, #434343);
   color: #e0e0e0;
 }
 
@@ -69,7 +72,7 @@ section {
 /* Welcome Quote Styling */
 #home .container {
   /* background: #f8f9fa; */
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #000000, #434343);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -161,7 +164,7 @@ p.lead {
 
 /* Objective Section */
 #obj .container {
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #000000, #434343);
   /* Dark background for the container */
   padding: 40px;
   /* Increased padding for a more spacious layout */
@@ -240,7 +243,8 @@ p.lead {
 /* Experience Section Styling */
 /* Experience Section Styling */
 #exp {
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #000000, #434343);
+
   /* Dark theme background */
   padding: 40px 20px;
   border-radius: 15px;
@@ -270,6 +274,8 @@ p.lead {
 
 #exp .col-md-12 {
   background-color: #2c2c2c;
+  background: linear-gradient(to bottom, #000000, #434343);
+
   /* Slightly lighter background for contrast */
   padding: 20px;
   border-radius: 10px;
@@ -352,7 +358,8 @@ p.lead {
 /* Skills Section */
 #skills {
   /* background-color: rgba(0, 0, 0, 0.9); */
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #000000, #434343);
+
   /* Dark background for the section */
   padding: 40px 20px;
   border-radius: 15px;
@@ -375,8 +382,11 @@ p.lead {
 
 .skill-item {
   background-color: #2c2c2c;
+  background: linear-gradient(to right, #000000, #434343);
+
   /* Slightly lighter background for individual skills */
-  color: rgb(0, 255, 8);
+  /* color: rgb(0, 255, 8); */
+  color: rgb(252, 2, 35);
   padding: 15px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
@@ -436,7 +446,8 @@ p.lead {
 /* Projects Section */
 #projects {
   /* background-color: #121212; */
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #000000, #434343);
+
   border-radius: 15px;
   /* Dark background to match theme */
   padding: 50px 0;
@@ -456,6 +467,7 @@ p.lead {
 /* Individual Project Cards */
 .project-card {
   background-color: #2c2c2c;
+  background: linear-gradient(to Bottom, #000000, #434343);
   /* Dark background for cards */
   padding: 20px;
   border-radius: 10px;
@@ -515,7 +527,8 @@ p.lead {
 /* Education Section */
 #education {
   /* background-color: rgba(0, 0, 0, 0.9); */
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #000000, #434343);
+
   /* Dark background for the section */
   padding: 40px 20px;
   border-radius: 15px;
@@ -539,6 +552,7 @@ p.lead {
 /* Education Item Styling */
 .edu-item {
   background-color: #2c2c2c;
+  background: linear-gradient(to Bottom, #000000, #434343);
   /* Slightly lighter background for each item */
   color: aquamarine;
   padding: 20px;
@@ -609,7 +623,8 @@ p.lead {
 
 #about .container {
   /* background-color: rgba(60, 66, 73, 0.8); */
-  background-color: #1e1e1e;
+  background: linear-gradient(to right, #000000, #434343);
+
   background-blend-mode: overlay;
   padding: 30px;
   border-radius: 15px;
@@ -651,7 +666,8 @@ p.lead {
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #000000, #434343);
+
   color: #e0e0e0;
 }
 
@@ -731,7 +747,8 @@ p.lead {
 
 /* Footer */
 footer {
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #000000, #434343);
+
   /* background-color: #000000; */
   color: #e0e0e0;
   text-align: center;
