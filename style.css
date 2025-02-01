@@ -37,12 +37,13 @@ section {
 .navbar-nav .nav-link,
 .dropdown-item {
   color: #ffa405 !important;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .navbar-nav .nav-link:hover,
 .dropdown-item:hover {
   color: #ffb933;
+  font-weight: bold;
   text-decoration: underline;
 }
 
