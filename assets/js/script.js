@@ -1,4 +1,24 @@
 'use strict';
+// Website loaded successfully
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Website loaded successfully.");
+
+  // Disable F12, Ctrl+Shift+I (Inspect Element), and Ctrl+C (Copy)
+  document.addEventListener('keydown', function(e) {
+      if (
+          e.key === 'F12' || 
+          (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+          (e.ctrlKey && e.key === 'c') // Disable Ctrl + C
+      ) {
+          e.preventDefault();
+      }
+  });
+
+  // Disable right-click context menu
+  document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+  }, false);
+});
 
 
 // element toggle function
