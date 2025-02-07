@@ -1,488 +1,1446 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>theAbhinavRaj</title>
+    <meta name="description" content="theAbhinavRaj, Portfolio of Abhinav">
+    <meta name="keywords" content="Abhinav's Portfolio">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>theAbhinavRaj</title>
-  <meta name="description" content="theAbhinavRaj, Portfolio of Abhinav">
-  <meta name="keywords" content="Abhinav's Portfolio">
-  <link rel="stylesheet" href="style.css">
-  <!-- Bootstrap CSS (in the <head> section) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Bootstrap JS & Popper.js (at the end of the <body> section) -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-</head>
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Profile.jpeg"
+      type="image/x-icon"
+    />
 
-<body>
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <header class="container-fluid">
-    <!-- bg-dark  of Nav bar -->
-    <nav class="navbar navbar-dark fixed-top navbar-expand-md" style="background-color: rgb(0, 0, 0);">
-      </div>
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html" style="color: #ffa405;">
-          <!-- <img src="#" alt="" width="30" height="24" class="d-inline-block align-text-top"> -->
-          Abhinav's Portfolio
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-          aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-          aria-labelledby="offcanvasDarkNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
-              Navigation
-            </h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-              aria-label="Close"></button>
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images//Profile.jpeg"
+              alt="Abhinav Raj"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Abhinav Raj">Abhinav Raj</h1>
+
+            <p class="title">TCS || Full Stack Developer || IIT Roorkee</p>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#obj">Objective</a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#exp">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#education">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"
-                  href="https://drive.google.com/uc?export=download&id=1CB2fHsJ2Mmq2a_Y8QJBkBBj1d30FFXxx">
-                  <i class="bi bi-file-earmark-pdf"></i> Download Resume
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#contact" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Connect with Me
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li style="margin-left: 7px">
-                    <a class="nav-link" href="tel:+919155105123" class="btn btn-primary mb-2">
-                      <i class="bi bi-telephone-fill"></i> Call Now
-                    </a>
-                  </li>
-                  <li style="margin-left: 7px">
-                    <a class="nav-link" href="mailto:abhinavraj0000@gmail.com" target="_blank"
-                      class="btn btn-warning mb-2">
-                      <i class="bi bi-envelope-fill"></i> Mail To
-                    </a>
-                  </li>
-                  <li style="margin-left: 7px">
-                    <a class="nav-link" href="https://wa.me/919155105123" target="_blank" class="btn btn-warning mb-2">
-                      <i class="bi bi-whatsapp"></i> WhatsApp Now
-                    </a>
-                  </li>
 
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <!-- <li>
-                    <a class="dropdown-item" href="https://wa.me/919155105123" target="_blank">
-                      <i class="bi bi-whatsapp"></i> WhatsApp Now
-                    </a>
-                  </li> -->
-                  <li>
-                    <a class="dropdown-item" href="https://github.com/erabhinavraj" target="_blank"><i
-                        class="bi bi-github"></i> GitHub</a>
-                  </li>
-                  <!-- <li>
-                    <a class="dropdown-item" href="https://www.mygreatlearning.com/eportfolio/abhinav-raj4"
-                      target="_blank">IIT_Roorkee's Projects Eportfolio</a>
-                  </li> -->
-                  <li>
-                    <a class="dropdown-item" href="https://www.linkedin.com/in/abhinav-raj-iitR" target="_blank"><i
-                        class="bi bi-linkedin"></i> LinkedIn</a>
-                  </li>
-                </ul>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:abhinavraj0000@gmail.com" class="contact-link"
+                  >abhinavraj0000@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+919155105123" class="contact-link"
+                  >+91 9155105123</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2000-02-09">9 February, 2000</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Noida, India</address>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="document-text-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Download My Resume</p>
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1CB2fHsJ2Mmq2a_Y8QJBkBBj1d30FFXxx"
+                  class="contact-link"
+                >
+                  <i
+                    class="bi bi-file-earmark-pdf"
+                    style="
+                      color: var(--orange-yellow-crayola);
+                      box-shadow: var(--shadow-1);
+                    "
+                  ></i>
+                  Click to Download
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/abhinav-raj-iitR"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://github.com/erabhinavraj"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://wa.me/9155105123"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://eportfolio.mygreatlearning.com/abhinav-raj4"
+                class="social-link"
+                target="_blank"
+              >
+                <img
+                  src="https://www.mygreatlearning.com/favicon.ico"
+                  alt="MyGreatLearning"
+                  width="24"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Experience</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Skills</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li> -->
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              A highly skilled Java Full Stack Developer with 3+ years of
+              experience, specializing in Java, Spring Boot, React.js, and
+              Microservices. Adept at designing scalable backend architectures,
+              optimizing UI/UX performance, and deploying applications using AWS
+              and Docker. Proficient in developing RESTful APIs, managing
+              databases (MySQL, MongoDB), and working with Agile methodologies.
+            </p>
+
+            <p>
+              A certified Java Full Stack Developer from IIT Roorkee, passionate
+              about solving complex problems and continuously learning emerging
+              technologies. Experienced in cloud computing, DevOps tools
+              (Terraform, Jenkins, Kubernetes), and version control (Git,
+              GitHub, Bitbucket). Enthusiastic about team collaboration,
+              automation, and software optimization to enhance performance and
+              efficiency.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Software Development</h4>
+
+                  <p class="service-item-text">
+                    A passionate Java Full Stack Developer with expertise in
+                    building scalable, high-performance web applications using
+                    Java, Spring Boot, React.js, and Microservices. Skilled in
+                    designing efficient backend architectures, optimizing UI/UX,
+                    and implementing RESTful APIs for seamless data
+                    communication. Experienced in cloud deployment (AWS, Docker,
+                    Kubernetes) and database management (MySQL, MongoDB).
+                    Proficient in Agile methodologies, version control (Git,
+                    GitHub, Bitbucket), and DevOps tools (Terraform, Jenkins).
+                    Dedicated to continuous learning, problem-solving, and
+                    delivering cutting-edge software solutions that enhance user
+                    experience and business efficiency.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    Experienced Full Stack Web Developer specializing in
+                    building responsive, user-friendly, and high-performance web
+                    applications using React.js, JavaScript, HTML5, CSS, and
+                    Bootstrap. Proficient in developing dynamic front-end
+                    interfaces and integrating them seamlessly with robust
+                    backend architectures using Java, Spring Boot, and RESTful
+                    APIs. Skilled in database management (MySQL, MongoDB) and
+                    deploying scalable applications on AWS and Docker.
+                    Passionate about UI/UX optimization, modern web
+                    technologies, and creating intuitive digital experiences
+                    that drive user engagement and business growth.
+                  </p>
+                </div>
               </li>
             </ul>
+          </section>
+
+          <!-- Testimonials / Experience Section -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Experience & Internship</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/tcs-logo.webp"
+                      alt="Daniel lewis"
+                      width="60"
+                      height="40"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Tata Consultancy Services
+                  </h4>
+                  <time style="color: antiquewhite"
+                    >January 2021 - <br />Present</time
+                  >
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Currently working as a Developer at TCS, specializing in
+                      Java Full Stack Development. Designed and optimized
+                      RESTful APIs using Spring Boot & Java, improving system
+                      performance. Integrated React.js frontends with Spring
+                      Boot backends for seamless UI experiences. Managed cloud
+                      deployments on AWS (EC2, S3) and worked with Agile
+                      methodologies (Scrum, Git, Jira) to deliver scalable
+                      solutions.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/alobha-logo.jpg"
+                      alt="Jessica miller"
+                      width="60"
+                      height="30"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Alobha Technology (Internship)
+                  </h4>
+                  <time style="color: antiquewhite"
+                    >June - December 2021</time
+                  >
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Worked as a Full Stack Development Intern, focusing on
+                      React.js & Spring Boot. Developed a React.js-based
+                      dashboard, enhancing UI/UX performance. Designed and
+                      optimized RESTful APIs for seamless data management.
+                      Managed MySQL database operations and implemented CRUD
+                      functionalities for scalable data handling.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/quick-heal.webp"
+                      alt="Emily evans"
+                      width="60"
+                      height="35"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Quick Heal (Training)
+                  </h4>
+                  <time style="color: antiquewhite"
+                    >June - July 2018 || June - July 2019</time
+                  >
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Completed an Internship in Ethical Hacking & Cybersecurity
+                      at Quick Heal. Gained hands-on experience in network
+                      security, vulnerability assessment, and penetration
+                      testing. Worked on malware analysis, firewall
+                      configurations, and security protocols to enhance system
+                      protection. Developed a strong understanding of cyber
+                      threat mitigation strategies and best practices in ethical
+                      hacking.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Abhinav Raj"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Abhinav Raj</h4>
+
+                <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+                <div data-modal-text>
+                  <p>
+                    I'm an experienced Software Developer at Tata Consultancy
+                    Services Pvt. Ltd. since January 2022, contributing to the
+                    growth of one of Asia's leading MNCs. With over 2 years of
+                    expertise in Java, JavaScript, HTML5, CSS, Node.js, SQL, and
+                    more than 3 years of overall experience in the tech
+                    industry, I bring a strong foundation in delivering
+                    innovative solutions. Currently, I am an aspiring Java Full
+                    Stack Developer, honing my skills through a program at IIT
+                    Roorkee.
+                  </p>
+                </div>
+              </div>
+            </section>
           </div>
-        </div>
-      </div>
-    </nav>
-  </header>
 
-  <main class="container-fluid">
+          <!--
+          - clients || skills
+        -->
 
-    <!-- Welcome Home Section  -->
+          <section class="clients">
+            <h3 class="h3 clients-title">Skills</h3>
 
-    <section id="home" class="container-fluid">
-      <div class="container text-center my-5">
-        <h2 class="mb-4">Welcome to my Portfolio!</h2>
-        <hr>
-        <!-- Dynamic Typing Effect -->
-        <p class="lead">
-          <em id="dynamic-text" class="text-primary fixed-effect"></em>
-        </p>
-        <p class="mt-4">This website is a reflection of my journey, skills, and accomplishments. <br>
-          <hr>
-          <span style="color: red;">Thank you for visiting!</span>
-        </p>
-      </div>
-    </section>
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Java.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
 
-    <!-- Objective Section -->
-    <section id="obj" class="container-fluid">
-      <div class="container">
-        <h3 class="obj">Objective</h3>
-        <!-- Dynamic Typing Effect for Objective Section -->
-        <p id="dynamic-text-obj"></p>
-      </div>
-    </section>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/JavaScript.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
 
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Spring.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
 
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/SQL.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
 
-    <!-- Experience Section -->
-    <section id="exp" class="container-fluid py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Experience</h2>
-        <div class="row">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/React.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
 
-          <!-- TCS Experience -->
-          <div class="col-md-12 mb-4">
-            <h3 class="text-primary" id="dynamic-tcs"></h3>
-            <p><strong>Role:</strong> <span id="dynamic-role-tcs"></span></p>
-            <p><strong>Duration:</strong> 2022 - Present</p>
-            <p>I take pride in being part of Tata Consultancy Services (TCS) as a Developer, actively contributing to
-              projects and ongoing development.</p>
-            <p><strong>Responsibilities:</strong></p>
-            <ul>
-              <li>Currently pursuing a role as a Developer.</li>
-              <li>Utilizing expertise in the following Tech stack:</li>
-              <ul id="dynamic-stack-tcs">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/AWS.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Hibernate.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/MonGO.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Docker.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/GitHub.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Agile&Scrum.png"
+                    alt="client logo"
+                    style="height: 150px"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Experience -->
+        <article class="experience" data-page="experience">
+          <header>
+            <h2 class="h2 article-title">Work <br />Experience</h2>
+          </header>
+
+          <section class="experience-item">
+            <h3 class="h3 job-title">Tata Consultancy Services</h3>
+            <p class="job-role">Developer</p>
+            <ul class="job-responsibilities">
+              <li>
+                Developed and optimized RESTful APIs using Spring Boot & Java,
+                reducing API response time by 40%.
+              </li>
+              <li>
+                Enhanced system performance by 30% by implementing a distributed
+                microservices architecture using Spring Boot and Kubernetes.
+              </li>
+              <li>
+                Integrated React.js frontend with Spring Boot backend, improving
+                UI performance and responsiveness.
+              </li>
+              <li>
+                Designed and implemented SQL queries for efficient data
+                retrieval, reducing query execution time by 25%.
+              </li>
+              <li>
+                Deployed scalable microservices on AWS (EC2, S3) with CI/CD
+                pipelines, enhancing deployment efficiency.
+              </li>
+              <li>
+                Collaborated with Agile teams using Git, Jira, and Scrum
+                methodologies.
+              </li>
+              <li>
+                Wrote complex SQL procedures to automate tasks and improve data
+                processing efficiency.
+              </li>
+              <li>
+                Ran large batch jobs on cloud infrastructure through remote
+                servers, optimizing data processing.
+              </li>
+              <li>
+                Debugged SQL queries and procedures, identifying bottlenecks and
+                improving performance.
+              </li>
+              <li>
+                Applied SQL best practices for efficient data manipulation and
+                query optimization.
+              </li>
+            </ul>
+          </section>
+
+          <section class="experience-item">
+            <h3 class="h3 job-title">Alobha Technology</h3>
+            <p class="job-role">Full Stack Developer Intern</p>
+            <ul class="job-responsibilities">
+              <li>
+                Developed a React.js-based dashboard, improving UI/UX
+                performance.
+              </li>
+              <li>Designed and optimized RESTful APIs using Spring Boot.</li>
+              <li>
+                Managed MySQL database & CRUD operations for scalable data
+                handling.
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Skill Set  -->
+        <article class="skills" data-page="skills">
+          <header>
+            <h2 class="h2 article-title">Skills</h2>
+          </header>
+
+          <section class="skills-category">
+            <h3 class="h3 category-title">Core Skills</h3>
+            <ul class="skills-list">
+              <li class="skills-item">Data Structure</li>
+              <li class="skills-item">Java Full Stack Development</li>
+              <li class="skills-item">Spring Boot</li>
+              <li class="skills-item">React.js</li>
+              <li class="skills-item">Microservices</li>
+              <!-- <li class="skills-item">RESTful APIs</li> -->
+              <li class="skills-item">Agile Methodologies</li>
+            </ul>
+          </section>
+
+          <section class="skills-category">
+            <h3 class="h3 category-title">Programming Languages</h3>
+            <ul class="skills-list">
+              <li
+                class="skills-item"
+                style="display: flex; justify-content: flex-start"
+              >
+                Java (Certified from IIT Roorkee)
+                <a
+                  href="https://eict.iitr.ac.in/wp-content/uploads/IITR-GL-FSD-A2O-24-18-scaled.jpg"
+                  target="_blank"
+                  style="
+                    margin-left: auto;
+                    color: #0d6efd;
+                    text-decoration: none;
+                  "
+                >
+                  <i class="bi bi-award" style="color: #0d6efd"></i> View
+                </a>
+              </li>
+
+              <li class="skills-item">JavaScript</li>
+              <li class="skills-item">HTML5</li>
+              <li class="skills-item">CSS</li>
+              <li
+                class="skills-item"
+                style="display: flex; justify-content: flex-start"
+              >
+                Python (Certified from Microsoft)
+                <a
+                  href="https://drive.google.com/file/d/1sR9rNa96fsd_saFwb7WeilxrunsNMJ01/view?usp=sharing"
+                  target="_blank"
+                  style="
+                    margin-left: auto;
+                    color: #0d6efd;
+                    text-decoration: none;
+                  "
+                >
+                  <i class="bi bi-award" style="color: #0d6efd"></i> View
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="skills-category">
+            <h3 class="h3 category-title">Backend Technologies</h3>
+            <ul class="skills-list">
+              <li class="skills-item">Spring Boot</li>
+              <li class="skills-item">Hibernate</li>
+              <li class="skills-item">REST APIs</li>
+              <li class="skills-item">Microservices</li>
+            </ul>
+          </section>
+
+          <section class="skills-category">
+            <h3 class="h3 category-title">Frontend Technologies</h3>
+            <ul class="skills-list">
+              <li class="skills-item">React.js</li>
+              <li class="skills-item">HTML5</li>
+              <li class="skills-item">CSS</li>
+              <li class="skills-item">Bootstrap</li>
+            </ul>
+          </section>
+
+          <section class="skills-category">
+            <h3 class="h3 category-title">Databases</h3>
+            <ul class="skills-list">
+              <li class="skills-item">MySQL</li>
+              <li class="skills-item">MongoDB</li>
+              <li class="skills-item">SQL</li>
+            </ul>
+          </section>
+
+          <section class="skills-category">
+            <h3 class="h3 category-title">Tools & Version Control</h3>
+            <ul class="skills-list">
+              <li class="skills-item">Git</li>
+              <li class="skills-item">GitHub</li>
+              <li class="skills-item">Docker</li>
+              <li class="skills-item">AWS (Basic)</li>
+            </ul>
+          </section>
+
+          <section class="skills-category">
+            <h3 class="h3 category-title">Methodologies</h3>
+            <ul class="skills-list">
+              <li class="skills-item">Agile</li>
+              <li class="skills-item">Scrum</li>
+            </ul>
+          </section>
+
+          <section class="skills-category">
+            <h3 class="h3 category-title">Development Tool Kit</h3>
+            <ul class="skills-list">
+              <li class="skills-item">Eclipse IDE</li>
+              <li class="skills-item">IntelliJ IDEA</li>
+              <li class="skills-item">VS Code</li>
+              <li class="skills-item">Postman</li>
+              <li class="skills-item">MongoDB Compass</li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Projects  -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>BackEnd development</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Cloud</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>DSA</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Java</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web Development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>BackEnd Development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Cloud</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>DSA</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Java</button>
+                </li>
               </ul>
+            </div>
+
+            <ul class="project-list">
+              <!-- Example Project 1 - Cloud -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="cloud"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="1">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Cloud1.jpg"
+                      alt="Cloud Computing"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Cloud Computing Graded Assignment - DevOps
+                  </h3>
+                  <p class="project-category">Cloud</p>
+                </a>
+              </li>
+
+              <!-- Example Project 2 - Cloud - Advance -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="cloud"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="2">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Cloud2.jpg"
+                      alt="Orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Cloud Computing Graded Assignment - AWS Advanced
+                  </h3>
+                  <p class="project-category">Cloud</p>
+                </a>
+              </li>
+
+              <!-- Example Project 3 - Cloud - Core -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="cloud"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="3">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Cloud3.webp"
+                      alt="Orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Team Communication Architecture - AWS Core
+                  </h3>
+                  <p class="project-category">Cloud</p>
+                </a>
+              </li>
+
+              <!-- Example Project 4 - Applications -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="4">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/ReactApplication.jpg"
+                      alt="Fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Managing Movie List - React JS</h3>
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <!-- Example Project 5 - Web design -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="5">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/JavaScriptWeb.jpg"
+                      alt="Brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Filter Resume by Designation - JavaScript
+                  </h3>
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+
+              <!-- Example Project 6 - Web design -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="6">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/HTML&CSS.png"
+                      alt="Brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">HTML & CSS Project</h3>
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+              <!-- Example Project 11 - Web design -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://perfectusfoods.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="11">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="Brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Perfectus Food LLP</h3>
+                  <p class="project-category">Live Website</p>
+                </a>
+              </li>
+
+              <!-- Example Project 7 - BackEnd Development -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="backend development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="7">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/BackendRest.webp"
+                      alt="DSM"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Rest API Web Application - Backend
+                  </h3>
+                  <p class="project-category">BackEnd Development</p>
+                </a>
+              </li>
+
+              <!-- Example Project 8 - backend development -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="backend development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="8">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/SpringRest.png"
+                      alt="DSM"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Spring MVC - Customer Management
+                  </h3>
+                  <p class="project-category">BackEnd Development</p>
+                </a>
+              </li>
+
+              <!-- Example Project 9 - DSA -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="dsa"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="9">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/DSA.jpg"
+                      alt="DSM"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Data Structures and Algorithms</h3>
+                  <p class="project-category">DSA</p>
+                </a>
+              </li>
+
+              <!-- Example Project 10 - Java -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="java"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box" data-modal-trigger="10">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/JavaOops.png"
+                      alt="DSM"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Departments in the System - Java-OOPs
+                  </h3>
+                  <p class="project-category">Java</p>
+                </a>
+              </li>
+
+              <!-- All  Projects on my Portfolio-->
+              <li class="project-item active" data-filter-item data-category="">
+                <a href="https://eportfolio.mygreatlearning.com/abhinav-raj4">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/AbhinavRaj.jpg"
+                      alt="DSM"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">View All Projects</h3>
+                  <p class="project-category">Projects</p>
+                </a>
+              </li>
+
+              <!-- More projects can follow the same pattern -->
             </ul>
-            <p><strong>Professional Affiliation:</strong> I am delighted to identify myself as a TCSer, contributing to
-              the dynamic and innovative environment at Tata Consultancy Services.</p>
-          </div>
+            <!-- Modal of Project section -->
+            <div id="projectModal" class="modal">
+              <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2 class="modal-title"></h2>
+                <p class="modal-description"></p>
+                <h3>Skills & Tools Used:</h3>
+                <ul class="modal-skills">
+                  <!-- Skills will be added here dynamically -->
+                </ul>
+              </div>
+            </div>
+          </section>
+        </article>
 
-          <!-- Alobha Technology Experience -->
-          <div class="col-md-12 mb-4">
-            <h3 class="text-success" id="dynamic-alobha"></h3>
-            <p><strong>Role:</strong> <span id="dynamic-role-alobha"></span></p>
-            <p><strong>Duration:</strong> 2020 - 2021</p>
-            <p>Full Stack Developer with expertise in building scalable and robust web applications. Proficient in
-              front-end technologies like React, combined with strong back-end skills in Java, Spring Boot, and
-              Hibernate.</p>
-            <p><strong>Key Skills:</strong></p>
-            <ul id="dynamic-skills-alobha">
-              <li>Designing and implementing RESTful APIs.</li>
-              <li>Managing databases using MySQL.</li>
-              <li>Deploying applications on cloud platforms like AWS.</li>
-              <li>Developing responsive user interfaces.</li>
-              <li>Debugging, optimizing performance, and collaborating with teams.</li>
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Indian Institute of Technology Roorkee
+                </h4>
+
+                <span>August 2023 - September 2024</span>
+
+                <p class="timeline-text">
+                  I successfully completed the Advanced Certificate Program in Full Stack Software Development from IIT Roorkee with A++ Grading, where I gained in-depth knowledge and hands-on experience in modern web development technologies. This program covered Java, Spring Boot, Hibernate, Microservices, React.js, SQL, and DevOps tools like Git and Jenkins, enabling me to build scalable and efficient applications. Through this certification, I strengthened my expertise in backend and frontend development, API integration, and database management while working on real-world projects. The rigorous curriculum and mentorship from IIT Roorkee have enhanced my problem-solving skills and equipped me with the latest industry practices to excel as a Full Stack Developer.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Uttarakhand Technical University (UTU), Dehradun
+                </h4>
+
+                <span>2017 — 2021</span>
+
+                <p class="timeline-text">
+                  I hold a B.Tech in Computer Science and Engineering from Uttarakhand Technical University (UTU), Dehradun securing First Divison, where I built a strong foundation in data structures, algorithms, software development, and database management. My academic journey equipped me with expertise in programming languages like Java, Python, and JavaScript, along with hands-on experience in web development, software engineering, and cloud technologies.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Regional Secondary School, Madhubani
+                </h4>
+
+                <span>2016</span>
+
+                <p class="timeline-text">
+                  I completed my Intermediat under the CBSE Board, securing 84%
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Regional Secondary School, Madhubani
+                </h4>
+
+                <span>2014</span>
+
+                <p class="timeline-text">
+                  I completed my Matriculation under the CBSE Board, securing 9.4 CGPA
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Developer</h4>
+
+                <span>2022 — Present</span>
+
+                <p class="timeline-text">
+                  Currently working as a Developer at TCS, specializing in Java Full Stack Development. Designed and optimized RESTful APIs using Spring Boot & Java, improving system performance. Integrated React.js frontends with Spring Boot backends for seamless UI experiences. Managed cloud deployments on AWS (EC2, S3) and worked with Agile methodologies (Scrum, Git, Jira) to deliver scalable solutions.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Internship</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Full Stack Developer Intern</h4>
+
+                <span>June — December 2021</span>
+
+                <p class="timeline-text">
+                  Worked as a Full Stack Development Intern at Alobha Technology, focusing on React.js & Spring Boot. Developed a React.js-based dashboard, enhancing UI/UX performance. Designed and optimized RESTful APIs for seamless data management. Managed MySQL database operations and implemented CRUD functionalities for scalable data handling.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Training</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Cyber Security Expert</h4>
+
+                <span>June 2018 — July 2018 || June 2019 — July 2019</span>
+
+                <p class="timeline-text">
+                  During my training at Quick Heal Pvt Ltd, I completed two phases of comprehensive training as a Cyber Security Engineer. In Phase 1 (June 2018), I gained foundational skills in Kali Linux, malware creation and detection, vulnerability testing for websites, and worked with tools supported by Linux. In Phase 2 (June 2019), I deepened my expertise in advanced Kali Linux applications, advanced programming, malware analysis, and vulnerability assessments. I also expanded my knowledge to include Mobile Phone hacking, Server attacks, and a more thorough understanding of NPM (Node Package Manager). This training greatly enhanced my cybersecurity and Linux application skills, providing a well-rounded technical foundation.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">DSA & JAVA</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Development</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Software Development</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+                            
+              <!-- <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Microservices</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li> -->
             </ul>
-            <p>Passionate about leveraging Java-based technologies to create innovative, secure, and maintainable
-              software applications.</p>
-          </div>
+          </section>
+        </article>
 
-          <!-- Quick Heal Experience -->
-          <div class="col-md-12">
-            <h3 class="text-danger" id="dynamic-quickheal"></h3>
-            <p><strong>Role:</strong> <span id="dynamic-role-quickheal"></span></p>
-            <p><strong>Duration:</strong> 2019 - 2020</p>
-            <p>Ethical Training - Quick Heal Pvt Ltd</p>
-            <p>During this comprehensive training module, I acquired valuable skills and knowledge in various aspects:
-            </p>
-            <ul id="dynamic-skills-quickheal">
-              <li>Practical understanding of Kali Linux, including basic operations and programming on the Linux
-                platform.</li>
-              <li>Proficiency in utilizing tools supported by Linux for diverse applications.</li>
-              <li>In-depth exploration of malware creation and detection techniques.</li>
-              <li>Hands-on experience in vulnerability testing for websites.</li>
-              <li>Familiarity with NPM (Node Package Manager) and other relevant topics.</li>
-            </ul>
-            <p>The training provided a solid foundation in cybersecurity and a diverse range of technical skills.</p>
-          </div>
-        </div>
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d77.3687!3d28.5355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5c9450b687f%3A0x5d6e63d924a70e4b!2sNoida%2C%20Uttar%20Pradesh%2C%20India!5e0!3m2!1sen!2sin!4v1647608789441!5m2!1sen!2sin"
+              width="400"
+              height="300"
+              loading="lazy"
+          ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
       </div>
-    </section>
+    </main>
 
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
 
-    <section id="skills" class="container-fluid py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Skills</h2>
-        <div class="row">
-          <!-- Skill Item - Java Full Stack Developer -->
-          <div class="col-md-6 mb-4">
-            <div class="skill-item d-flex justify-content-between align-items-center">
-              <span id="dynamic-skill-1"></span>
-              <a href="https://eict.iitr.ac.in/wp-content/uploads/IITR-GL-FSD-A2O-24-18-scaled.jpg" target="_blank"
-                class="btn btn-primary btn-sm"><i class="bi bi-award"></i> View</a>
-            </div>
-          </div>
-
-          <!-- Skill Item - JavaScript -->
-          <div class="col-md-6 mb-4">
-            <div class="skill-item">
-              <span id="dynamic-skill-2"></span>
-            </div>
-          </div>
-
-          <!-- Skill Item - HTML5 -->
-          <div class="col-md-6 mb-4">
-            <div class="skill-item">
-              <span id="dynamic-skill-3"></span>
-            </div>
-          </div>
-
-          <!-- Skill Item - CSS -->
-          <div class="col-md-6 mb-4">
-            <div class="skill-item">
-              <span id="dynamic-skill-4"></span>
-            </div>
-          </div>
-
-          <!-- Skill Item - SQL -->
-          <div class="col-md-6 mb-4">
-            <div class="skill-item">
-              <span id="dynamic-skill-5"></span>
-            </div>
-          </div>
-
-          <!-- Skill Item - React Js -->
-          <div class="col-md-6 mb-4">
-            <div class="skill-item">
-              <span id="dynamic-skill-6"></span>
-            </div>
-          </div>
-
-          <!-- Skill Item - Spring Boot -->
-          <div class="col-md-6 mb-4">
-            <div class="skill-item">
-              <span id="dynamic-skill-7"></span>
-            </div>
-          </div>
-
-          <!-- Skill Item - Git & GitHub -->
-          <div class="col-md-6 mb-4">
-            <div class="skill-item">
-              <span id="dynamic-skill-8"></span>
-            </div>
-          </div>
-
-          <!-- Skill Item - Python -->
-          <div class="col-md-6 mb-4">
-            <div class="skill-item d-flex justify-content-between align-items-center">
-              <span id="dynamic-skill-9"></span>
-              <a href="https://drive.google.com/file/d/1sR9rNa96fsd_saFwb7WeilxrunsNMJ01/view?usp=sharing"
-                target="_blank" class="btn btn-primary btn-sm"><i class="bi bi-award"></i> View</a>
-            </div>
-          </div>
-
-          <!-- Skill Item - View Resume -->
-          <div class="col-md-6 mb-4">
-            <div class="skill-item d-flex justify-content-between align-items-center">
-              <span id="dynamic-skill-10"></span>
-              <a href="https://drive.google.com/file/d/1CB2fHsJ2Mmq2a_Y8QJBkBBj1d30FFXxx/view?usp=sharing"
-                target="_blank" class="btn btn-primary btn-sm"> <i class="bi bi-file-earmark-pdf"></i> View</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="projects" class="container-fluid py-5">
-      <div class="container">
-        <!-- Custom phrase introduction -->
-        <h2 class="text-center mb-4">Innovation in Action: Explore the Projects that Define My Journey!</h2>
-
-        <div class="row">
-          <!-- Project 2: Java Full Stack Certification Projects -->
-          <div class="col-md-6 mb-4">
-            <div class="project-card">
-              <h4 class="text-info">Java Full Stack Certification Projects</h4>
-              <p>During my Java Full Stack certification, I completed several hands-on projects to sharpen my skills in
-                both front-end and back-end technologies. These projects ranged from building RESTful APIs to
-                integrating databases and ensuring responsive design. Each project contributed to my deep understanding
-                of the full-stack development lifecycle.</p>
-              <p><strong>Link:</strong> <a href="https://eportfolio.mygreatlearning.com/abhinav-raj4" target="_blank"
-                  class="btn btn-info btn-sm"><i class="bi bi-briefcase"></i> IIT-Roorkee's Projects Eportfolio</a></p>
-            </div>
-          </div>
-          <!-- Project 1: Web App for a Food Cafe -->
-          <div class="col-md-6 mb-4">
-            <div class="project-card">
-              <h4 class="text-warning">Web App for a Food Cafe</h4>
-              <p>I have built a static Web Application for a Food Cafe using HTML5, CSS, JavaScript, and Bootstrap. The
-                application includes a menu where users can add items to their cart, and the order will be delivered via
-                WhatsApp. This project was designed to enhance my skills in front-end development and create a seamless
-                user experience.</p>
-              <p><strong>Link:</strong> <a href="https://perfectusfoods.com" target="_blank"
-                  class="btn btn-warning btn-sm">Visit the Cafe</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Education  -->
-    <section id="education" class="container-fluid py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Education</h2>
-        <div class="row">
-
-          <!-- IIT Roorkee -->
-          <div class="col-md-4 mb-4">
-            <div class="edu-item">
-              <h3 class="text-primary">IIT Roorkee</h3>
-              <p><strong>Qualification:</strong> Java Full Stack Developer</p>
-              <p><strong>Grade:</strong> A++</p>
-              <p><strong>Duration:</strong> 2023-24</p> <!-- Added Duration -->
-            </div>
-          </div>
-
-          <!-- Uttarakhand Technical University -->
-          <div class="col-md-4 mb-4">
-            <div class="edu-item">
-              <h3 class="text-success">Uttarakhand Technical University, Dehradun</h3>
-              <p><strong>Qualification:</strong> B.Tech in Computer Science and Engineering</p>
-              <p><strong>Percentage:</strong> 84%</p>
-              <p><strong>Year of Passing:</strong> 2021</p> <!-- Added Year of Passing -->
-            </div>
-          </div>
-
-          <!-- Regional Secondary School (Intermediate) -->
-          <div class="col-md-4 mb-4">
-            <div class="edu-item">
-              <h3 class="text-warning">Regional Secondary School, Madhubani, Bihar</h3>
-              <p><strong>Qualification:</strong> Intermediate</p>
-              <p><strong>Percentage:</strong> 84%</p>
-              <p><strong>Year of Passing:</strong> 2016</p> <!-- Added Year of Passing -->
-            </div>
-          </div>
-
-          <!-- Regional Secondary School (Matriculation) -->
-          <div class="col-md-4 mb-4">
-            <div class="edu-item">
-              <h3 class="text-danger">Regional Secondary School, Madhubani, Bihar</h3>
-              <p><strong>Qualification:</strong> Matriculation</p>
-              <p><strong>CGPA:</strong> 9.4</p>
-              <p><strong>Year of Passing:</strong> 2014</p> <!-- Added Year of Passing -->
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-    <!-- About Us Section Starts from here  -->
-    <section id="about" class="container-fluid py-5">
-      <div class="container">
-        <!-- About Header -->
-        <h2 class="text-center mb-4">About Me</h2>
-
-        <!-- About Content -->
-        <div class="row">
-          <div class="col-md-12">
-            <p class="lead text-white">
-              Hello, I'm <strong>ABHINAV RAJ</strong>, a seasoned engineer with a background in software development at
-              <span style="color: rgb(233, 26, 171);">Tata Consultancy Services Pvt Ltd</span> since January 2022.
-              Skilled in <span style="color: red;">Java, JavaScript, HTML5, CSS, SQL, React
-                Framework, Spring Boot, and Git & GitHub</span>. I hold a Java FSD and Python certification from IIT
-              Roorkee and
-              Microsoft respectively, showcasing my commitment to ongoing learning and a knack for problem-solving.
-            </p>
-            <p class="lead text-white">
-              During my tenure at TCS, I've thrived as a multitasking engineer, specializing in <strong>Java Full Stack
-                Technology</strong> along with backend like SQL and Spring Boot, while also exploring
-              front-end technologies. I've adeptly applied Agile Methodology, demonstrating leadership in team settings
-              and fostering collaborative work environments. As an ambitious Full Stack Developer alum from IIT Roorkee,
-              my journey has continually refined my technical prowess, reinforcing my confidence in tackling complex
-              challenges.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-
-    <section id="contact" class="container-fluid py-5">
-      <div class="container">
-        <!-- Contact Header -->
-        <h2 class="text-center mb-4">Contact Me</h2>
-
-        <!-- Contact Details -->
-        <div class="row text-center">
-          <div class="col-md-4 mb-3">
-            <a href="tel:+919155105123" class="btn btn-success w-100 mb-2">
-              <i class="bi bi-telephone-fill"></i> Call Me Now
-            </a>
-          </div>
-          <div class="col-md-4 mb-3">
-            <a href="mailto:abhinavraj0000@gmail.com" target="_blank" class="btn btn-warning w-100 mb-2">
-              <i class="bi bi-envelope-fill"></i> Mail Me
-            </a>
-          </div>
-          <!-- <div class="col-md-4 mb-3">
-            <a href="https://wa.me/919155105123" target="_blank" class="btn btn-success w-100 mb-2">
-              <i class="bi bi-whatsapp"></i> WhatsApp Me Now
-            </a>
-          </div> -->
-
-          <!-- <div class="col-md-4 mb-3">
-            <a href="https://github.com/erabhinavraj" target="_blank" class="btn btn-dark w-100 mb-2">
-              <i class="bi bi-github"></i> Visit My GitHub Repo
-            </a>
-          </div> -->
-          <div class="col-md-4 mb-3">
-            <a href="https://www.linkedin.com/in/abhinav-raj-iitR" target="_blank" class="btn btn-primary w-100 mb-2">
-              <i class="bi bi-linkedin"></i> Connect me on LinkedIn
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-  </main>
-
-
-  <footer id="footer" class="container-fluid">
-    <p>© 2025 Abhinav Raj Jha | All Rights Reserved</p>
-  </footer>
-
-  <!-- Back to Top Button -->
-  <button id="backToTopBtn" class="btn btn-dark">↑</button>
-
-  <!-- Bottom Message -->
-  <div id="bottomMessage" class="alert alert-success text-center" style="display: none;">
-    You have reached the bottom of the page!
-  </div>
-
-
-  <!-- Popper.js (required by Bootstrap 5 for modal, tooltips, popovers) -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> -->
-
-  <!-- Bootstrap 5 JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-
-  <!-- Your Custom JavaScript -->
-  <script src="script.js"></script>
-
-</body>
-
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
