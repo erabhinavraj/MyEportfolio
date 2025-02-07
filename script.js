@@ -1,17 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Website loaded successfully.");
 
-  // Disable F12 and Ctrl+Shift+I for opening Developer Tools
-document.addEventListener('keydown', function(e) {
-    if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
-        e.preventDefault();
-    }
+  // Disable F12, Ctrl+Shift+I (Inspect Element), and Ctrl+C (Copy)
+  document.addEventListener('keydown', function(e) {
+      if (
+          e.key === 'F12' || 
+          (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+          (e.ctrlKey && e.key === 'c') // Disable Ctrl + C
+      ) {
+          e.preventDefault();
+      }
+  });
+
+  // Disable right-click context menu
+  document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+  }, false);
 });
 
-// Disable right-click context menu
-document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-}, false);
 
   // Close offcanvas when any non-dropdown nav-link is clicked
   document
