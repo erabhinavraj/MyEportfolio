@@ -1467,6 +1467,107 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
+/* Contact added new style for the contact link behavior.  */
+/*-----------------------------------*\
+  #ADDED CONTACT LINK
+\*-----------------------------------*/
+
+.AddedContactLink {
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-2);
+}
+
+/* When the parent is active, make the AddedContactLink visible */
+.contact.active .AddedContactLink {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Default styling for the contacts list */
+.AddedContactLink .contacts-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.AddedContactLink .contact-item {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.AddedContactLink .contact-info {
+  max-width: calc(100% - 46px);
+  width: calc(100% - 46px);
+}
+
+.AddedContactLink .contact-title {
+  color: var(--light-gray-70);
+  font-size: var(--fs-8);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.AddedContactLink .contact-info :is(.contact-link, time, address) {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+.AddedContactLink .contact-info address {
+  font-style: normal;
+}
+
+.AddedContactLink .social-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+}
+
+.AddedContactLink .social-item .social-link {
+  color: var(--light-gray-70);
+  font-size: 18px;
+}
+
+.AddedContactLink .social-item .social-link:hover {
+  color: var(--light-gray);
+}
+
+/* Responsiveness for smaller screens (mobile/tablet) */
+@media (max-width: 768px) {
+  .AddedContactLink {
+    padding: 15px; /* Adjust padding */
+    width: 100%;   /* Full width */
+  }
+
+  /* Stack the contact items vertically */
+  .AddedContactLink .contacts-list {
+    display: block;
+  }
+
+  .AddedContactLink .contact-item {
+    margin-bottom: 12px; /* Space between contact items */
+  }
+
+  .AddedContactLink .contact-info {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+  }
+
+  .AddedContactLink .contact-link {
+    text-align: left; /* Align links to the left */
+    font-size: 14px;  /* Adjust font size for smaller screens */
+  }
+
+  .AddedContactLink .contact-title {
+    font-size: var(--fs-9); /* Adjust title font size */
+  }
+}
+
 
 
 
